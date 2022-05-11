@@ -34,3 +34,5 @@ Invoke-WebRequest -Uri $Uri -OutFile ".\GetAzureDetails.ps1"
 # Run the script
 & '.\GetAzureDetails.ps1'
 ```
+
+![Demo](https://github.com/michawets/GetAzureDetails/blob/efcaaa4ec94982daf2ed472e29a36aa3b79fc0ac/Demo.png)
