@@ -1,6 +1,6 @@
 # Howto
 
-These scripts can help you create an overview of your Azure Subscription.
+These scripts can help you create an overview of your Azure Subscription.<br/>
 It will then upload the info to us.
 
 The script will
@@ -13,15 +13,17 @@ The script will
 
 ## Requirements
 
-You need to have the Azure Powershell Modules on your device.
-
+You need to have the Azure Powershell Modules on your device.<br/>
 This can be easily installed on your device using the following cmdlet:
 
 ```powershell
 Install-Module -Name Az
 ```
 
-## You need to run the script in a Powershell window
+## Execution
+
+You need to run the script in a Powershell window.<br/>
+The script will ask for a SAS Token. To obtain a SAS Token, contact your Support Engineer.
 
 ```powershell
 New-Item -ItemType Directory -Path "C:\Temp" -Force
