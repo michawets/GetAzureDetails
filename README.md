@@ -11,6 +11,16 @@ The script will
 * Get details on the Resources in your Resource Groups
 * Upload the info to our storage account.
 
+## Requirements
+
+You need to have the Azure Powershell Modules on your device.
+
+This can be easily installed on your device using the following cmdlet:
+
+```powershell
+Install-Module -Name Az
+```
+
 ## You need to run the script in a Powershell window
 
 ```powershell
